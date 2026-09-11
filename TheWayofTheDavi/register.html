@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register - The Way of the Dawi</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="logo-container">
+            <img src="img/logo.png" alt="Warhammer Logo">
+        </div>
+
+        <nav>
+			<a href="home.html">HOME</a>
+			<a href="Lore.html">LORE</a>
+			<a href="clan.html">CLANS</a>
+			<a href="register.html" class="register active">REGISTER</a>
+        </nav>
+
+    </header>
+
+    <main class="register-page">
+
+        <div class="register-overlay"></div>
+
+        <div class="register-content">
+
+            <p class="register-eyebrow">
+                ⚔ JOIN THE DWARVEN REALMS ⚔
+            </p>
+
+            <h1>
+                REGISTER
+            </h1>
+
+            <div class="divider">
+                <span>◆</span>
+            </div>
+
+            <p class="register-subtitle">
+                Swear your oath and enter the ancient kingdoms of the Dawi.
+            </p>
+
+
+            <form class="register-form">
+
+                <div class="form-group">
+                    <label for="username">USERNAME</label>
+                    <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        placeholder="Enter your username"
+                        required
+                    >
+                </div>
+
+
+                <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+
+                <div class="form-group">
+                    <label for="password">PASSWORD</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter your password"
+                        required
+                    >
+                </div>
+
+
+                <div class="form-group">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input
+                        type="password"
+                        id="confirm-password"
+                        name="confirm-password"
+                        placeholder="Confirm your password"
+                        required
+                    >
+                </div>
+
+
+                <label class="terms">
+                    <input type="checkbox" required>
+                    <span>I swear my oath and agree to the terms of the realm.</span>
+                </label>
+
+
+                <button type="submit" class="register-button">
+                    CREATE ACCOUNT
+                </button>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-symbol">
+            ⚔
+        </div>
+
+        <p>
+            THE WAY OF THE DAWI
+        </p>
+
+        <span>
+            All rights reserved. | Group 7 - Team Blue
+        </span>
+
+    </footer>
+
+</body>
+
+</html>
