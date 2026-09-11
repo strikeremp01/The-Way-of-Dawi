@@ -25,7 +25,7 @@ body {
     padding-top: 100px;
 }
 
-.title-banner {
+header {
     background: rgba(30, 41, 59, 0.75);
     backdrop-filter: blur(8px);
     border: 1px solid rgba(196, 154, 88, 0.4);
