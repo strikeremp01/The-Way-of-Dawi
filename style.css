@@ -141,7 +141,7 @@ nav .register {
     overflow: hidden;
 
 	background-color: #3E6B85;
-    background-image: url("Img/Bg_image.png");
+    background-image: url("img/Bg_image.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -316,7 +316,7 @@ nav .register {
     overflow: hidden;
 
 	background-color: #3E6B85;
-    background-image: url("Img/Bg_Register.jpg");
+    background-image: url("img/Bg_Register.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
